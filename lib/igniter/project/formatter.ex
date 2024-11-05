@@ -153,7 +153,7 @@ defmodule Igniter.Project.Formatter do
   end
 
   @doc """
-  REmoves a plugin to the list of plugins in the root `.formatter.exs`
+  Removes a plugin to the list of plugins in the root `.formatter.exs`
   """
   @spec remove_formatter_plugin(Igniter.t(), plugin :: module()) :: Igniter.t()
   def remove_formatter_plugin(igniter, plugin) do
